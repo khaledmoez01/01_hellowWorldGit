@@ -1,0 +1,302 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#partie1 { 
+background: url("../usb/exercice07/images/slider_image_home_1x.png") center top no-repeat ;
+/*min-height: 900px;*/
+
+background-size:100% auto;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+/*font-family: 'Poppins', sans-serif;
+font-size: 2em;
+font-weight: 300;
+line-height: 1.7em;*/
+color:white;
+}
+
+#logo01 {
+    margin-top: 1%;
+}
+
+.menu01 {
+    margin-top: 2%;
+}
+#jumbotron_kmg {
+    background-color: transparent;
+    margin-top: 10%;
+}
+
+#logo02 {
+    margin-top: 2%;
+}
+
+
+.kmg_h4_partie4
+{
+    margin-top: 5%;
+}
+
+.section_h4
+{
+    color:red;
+    margin-top: 8%;
+}
+
+
+
+.btn_kmg01 {
+    margin-top: 5%;
+}
+
+#partie6 { 
+    background: url("../usb/exercice07/images/news_letter_background_image_home1x.png") center top no-repeat ;
+    /*min-height: 900px;*/
+    background-size:100% auto;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    font-family: 'Poppins', sans-serif;
+   /* font-size: 2em;
+    font-weight: 300;
+    line-height: 1.7em;*/
+    color:white;
+    }
+
+
+
+.nav-link {
+    color: white !important;
+}
+
+
+/* carousel new */
+#partie2 {
+    margin-bottom: 2%;
+}
+
+
+#partie2 .carousel-control-next-icon{
+    background-image: url("../usb/exercice07/images/arrow_right_actif_1x.png") !important;
+}
+
+#partie2 .carousel-control-prev-icon{
+    background-image: url("../usb/exercice07/images/arrow_left_actif_1x.png") !important;
+}
+
+
+#partie2 h4
+{
+    color:red;
+}
+
+@media (min-width: 768px) {
+    /* show 3 items */
+    #partie2 .carousel-inner .active,
+    #partie2 .carousel-inner .active + .carousel-item,
+    #partie2 .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+    }
+  
+    #partie2 .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    #partie2 .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    #partie2 .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+  
+    #partie2 .carousel-inner .carousel-item-next,
+    #partie2 .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+  
+    #partie2 .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+    /* left or forward direction */
+    #partie2 .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    #partie2 .carousel-item-next.carousel-item-left + .carousel-item,
+    #partie2 .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    #partie2 .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    /* farthest right hidden item must be abso position for animations */
+    #partie2 .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  
+    /* right or prev direction */
+    #partie2 .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    #partie2 .carousel-item-prev.carousel-item-right + .carousel-item,
+    #partie2 .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    #partie2 .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+  
+  #partie2 .ul_carrousel {
+      list-style-type: none;
+  }
+
+/* ************ partie 3 ************ */
+  
+#partie3 .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  
+#partie3 .carousel-indicators .active {
+    background-color: red;
+}
+
+#partie3 .carousel-caption {
+     transform: translateY(-50%);
+     bottom: 0;
+     top: 50%;
+}
+
+#partie3 .logoMarque {
+    margin-top: 5%;
+}
+
+#partie3 .avisMarque {
+    margin-top: 5%;
+}
+
+@media all and (min-width: 986px)  and (max-width: 1176px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(-30%);
+        bottom: 0;
+        top: 30%;
+   }
+}
+
+@media all and (min-width: 940px)  and (max-width: 986px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(-20%);
+        bottom: 0;
+        top: 20%;
+   }
+}
+
+@media all and (min-width: 900px)  and (max-width: 940px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(-10%);
+        bottom: 0;
+        top: 10%;
+   }
+}
+
+@media all and (min-width: 775px)  and  (max-width: 900px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(0%);
+        bottom: 0;
+        top: 0%;
+   }
+
+   #partie3 .carousel-indicators {
+       bottom: 0%;
+       padding: 0;
+       margin-bottom: 0%;
+   }
+}
+
+@media all and (min-width: 547px) and (max-width: 775px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(0%);
+        bottom: 0;
+        top: 0%;
+   }
+
+   #partie3 .carousel-indicators {
+       bottom: 0%;
+       padding: 0;
+       margin-bottom: 0%;
+   }
+   #partie3 .logoMarque {
+       margin-top: 0%;
+   }
+   
+   #partie3 .avisMarque {
+       margin-top: 0%;
+   }
+}
+
+@media all and (max-width: 547px)  
+{
+    #partie3 .carousel-caption {
+        transform: translateY(0%);
+        bottom: 0;
+        top: 0%;
+        margin:0%;
+        
+    padding: 0%;
+    width: 100%;
+    top:0;
+    left:0;
+   }
+
+   #partie3 .carousel-indicators {
+       bottom: 0%;
+       padding: 0;
+       margin-bottom: 0%;
+   }
+   #partie3 .logoMarque {
+       margin-top: 0%;
+   }
+   
+   #partie3 .avisMarque {
+       margin-top: 0%;
+       font-size: 0.7em;
+   }
+   #partie3 .kmgContainer {
+    margin: 0%;
+    padding: 0%;
+   }
+
+
+   
+}
+
+@media all and (max-width: 384px)  
+{
+    #partie3 .approvedText {
+        font-size: 0.6em;
+    }
+}
+
+/* ********* fin partie 3 ************ */
