@@ -1,1 +1,1 @@
-nouvelle ligne dans 02_test_kmg.txt ajout�e depuis C:\Users\Khaled\Desktop\fivepoints\02formation\04_GIT\git_helloWorldLocal
+nouvelle ligne dans 02_test_kmg.txt (texte ajouté mardi matin depuis github) ajoutée depuis C:\Users\Khaled\Desktop\fivepoints\02formation\04_GIT\git_helloWorldLocal
